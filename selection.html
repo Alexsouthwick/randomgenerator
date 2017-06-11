@@ -9,11 +9,6 @@
          <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
         <script src="selection_script.js"> </script>
-     <style>
-h1 {
-    text-align: center;
-}
-     </style>
     </head>
 
 <h1> Idea Generator </h1>
@@ -31,15 +26,13 @@ h1 {
 <div class="dropdown">
   <button class="dropbtn">Setting</button>
   <div class="dropdown-content">
-    <a id= "haunted castle" href="#">Haunted Castle</a>
-    <a id="antique shopr" href="#">Antique Shop</a>
-    <a id="retirement home" href="#">Retirement Home</a>
-    <a id="desert oasis" href="#">Desert Oasis</a>
-    <a id="pirate ship" href="#">Pirate Ship</a>
-
+    <a id= "castle" href="#">Haunted Castle</a>
+    <a id="shop" href="#">Antique Shop</a>
+    <a id="home" href="#">Retirement Home</a>
+    <a id="oasis" href="#">Desert Oasis</a>
+    <a id="ship" href="#">Pirate Ship</a>
   </div>
 </div>
-
 <div class="dropdown">
   <button class="dropbtn">Character</button>
   <div class="dropdown-content">
@@ -51,26 +44,9 @@ h1 {
   </div>
 </div>
 
-<div class="dropdown">
-  <button class="dropbtn">Sidekick</button>
-  <div class="dropdown-content">
-    <a id= "romance" href="#">One</a>
-    <a id="horror" href="#">Two</a>
-  </div>
-</div>
-
-<div class="dropdown">
-  <button class="dropbtn">Plot</button>
-  <div class="dropdown-content">
-    <a id= "romance" href="#">One</a>
-    <a id="horror" href="#">Two</a>
-  </div>
-</div>
-
-
-
-<ol id= story>
+<ol id="story"></ol>
 <button id="finish"> Finish</button>
-    <p> Your story will be a </p>
+    <p id="genre"> Your story will be a </p>
+    <p id="setting"> It will take place in a </p>
 
 </body>
