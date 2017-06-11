@@ -28,6 +28,10 @@
 
 }
 
+h1 {
+    text-align: center;
+}
+
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
