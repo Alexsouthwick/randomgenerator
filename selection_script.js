@@ -9,19 +9,19 @@ $(document).ready(function(){
   });
     //genre
     $("#romance").click(function(){
-        $("#story").append("<li>romance</li>");
+        $("#story").append("<li>romance story</li>");
     })
     $("#horror").click(function(){
-        $("#story").append("<li>horror</li>");
+        $("#story").append("<li>horror story</li>");
     })
      $("#comedy").click(function(){
-        $("#story").append("<li>comedy</li>");
+        $("#story").append("<li>comedy story</li>");
     })
      $("#mystery").click(function(){
-        $("#story").append("<li>mystery</li>");
+        $("#story").append("<li>mystery story</li>");
     })
      $("#dystopian").click(function(){
-        $("#story").append("<li>dystopian</li>");
+        $("#story").append("<li>dystopian story</li>");
     })
      //setting
      $("#castle").click(function(){
@@ -55,16 +55,33 @@ $(document).ready(function(){
      $("#singer").click(function(){
         $("#story").append("<li>lead singer of an unsuccessful band</li>");
     })
+     //sidekick
+     $("#lover").click(function(){
+        $("#story").append("<li>clingy love interest</li>");
+    })
+     $("#dog").click(function(){
+        $("#story").append("<li>dog</li>");
+    })
+     $("#coworker").click(function(){
+        $("#story").append("<li>sassy coworker</li>");
+    })
+     $("#sibling").click(function(){
+        $("#story").append("<li>annoying sibling</li>");
+    })
      $("#finish").click(function(){
         var first= $("li").get(0);
         var genre= $(first).text();
         var second= $("li").get(1);
         var setting= $(second).text();
+        console.log(setting);
         var third= $("li").get(2);
         var character= $(third).text();
+        var fourth= $("li").get(3);
+        var sidekick= $(fourth).text();
         $("#genre").append(genre);
         $("#setting").append(setting);
         $("#character").append(character);
+        $("#sidekick").append(sidekick);
 
 
      });
