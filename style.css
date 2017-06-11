@@ -1,7 +1,10 @@
 h1{
-    color:red;
+    color:#adad85;
+    text-align: center;
 }
 
 body{
-    background-color: black;
+    background-image: url("http://i68.tinypic.com/jzur2a.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
