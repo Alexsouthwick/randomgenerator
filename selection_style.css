@@ -127,11 +127,12 @@ h3{
 #finished{
     text-align: center;
     background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+   background: #57bcff;
+  background-image: -webkit-linear-gradient(top, #57bcff, #1d6f9e);
+  background-image: -moz-linear-gradient(top, #57bcff, #1d6f9e);
+  background-image: -ms-linear-gradient(top, #57bcff, #1d6f9e);
+  background-image: -o-linear-gradient(top, #57bcff, #1d6f9e);
+  background-image: linear-gradient(to bottom, #57bcff, #1d6f9e);
   text-decoration: none;
     width:40%;
     border-radius: 15px;
