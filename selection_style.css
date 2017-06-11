@@ -36,7 +36,18 @@ body{
 
 h1 {
     text-align: center;
+    color:#75a3a3;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    padding-top: 5%;
+    text-shadow: -2px 0 white, 0 1px white, 1px 0 white, 0 -2px white;
 }
+
 
 /* Links inside the dropdown */
 .dropdown-content a {
