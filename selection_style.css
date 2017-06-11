@@ -21,6 +21,8 @@ body{
     position: relative;
     display: inline-block;
     margin-right: 13%;
+    margin-left: 13%; 
+    margin-top: 75px
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -47,7 +49,10 @@ h1 {
     padding-top: 5%;
     text-shadow: -2px 0 white, 0 1px white, 1px 0 white, 0 -2px white;
 }
-
+#stoty{
+    text-align: center; 
+    margin-top: 75px
+}
 
 /* Links inside the dropdown */
 .dropdown-content a {
