@@ -60,7 +60,7 @@ $(document).ready(function(){
         $("#story").append("<li>clingy love interest</li>");
     })
      $("#dog").click(function(){
-        $("#story").append("<li>dog</li>");
+        $("#story").append("<li>talking dog</li>");
     })
      $("#coworker").click(function(){
         $("#story").append("<li>sassy coworker</li>");
@@ -68,9 +68,28 @@ $(document).ready(function(){
      $("#sibling").click(function(){
         $("#story").append("<li>annoying sibling</li>");
     })
+     //plot
+     $("#relative").click(function(){
+        $("#story").append("<li>Their unknown relative died and left them millions</li>");
+    })
+     $("#serial").click(function(){
+        $("#story").append("<li>There is a mysterious serial killer on the loose</li>");
+    })
+     $("#manipulated").click(function(){
+        $("#story").append("<li>They are being manipulated by a rich child</li>");
+    })
+     $("#engaged").click(function(){
+        $("#story").append("<li>They are about to engaged to a stranger</li>");
+    })
+     $("#lottery").click(function(){
+        $("#story").append("<li>They won the lottery but lost the ticket</li>");
+    })
+
+
      $("#finish").click(function(){
         var first= $("li").get(0);
         var genre= $(first).text();
+        console.log(first);
         var second= $("li").get(1);
         var setting= $(second).text();
         console.log(setting);
@@ -78,10 +97,13 @@ $(document).ready(function(){
         var character= $(third).text();
         var fourth= $("li").get(3);
         var sidekick= $(fourth).text();
+        var fifth= $("li").get(4);
+        var plot= $(fifth).text();
         $("#genre").append(genre);
         $("#setting").append(setting);
         $("#character").append(character);
         $("#sidekick").append(sidekick);
+        $("#plot").append(plot);
 
 
      });
