@@ -8,6 +8,12 @@
     cursor: pointer;
     border-radius: 15px;
 }
+
+body{
+    background-image: url("http://i68.tinypic.com/jzur2a.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 /* hover color 
 .button:hover {background-color: #80bfff} */
 /* The container <div> - needed to position the dropdown content */
