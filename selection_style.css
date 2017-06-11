@@ -7,11 +7,7 @@
     border: none;
     cursor: pointer;
     border-radius: 15px;
-    text-align: center;
-    background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #85d0ff);
-
-}
+  }
 
 body{
     background-image: url("http://i68.tinypic.com/jzur2a.jpg");
@@ -55,6 +51,18 @@ h1 {
     font-weight: 500;
     line-height: 26.4px;
     padding-top: 5%;
+    text-shadow: -2px 0 white, 0 1px white, 1px 0 white, 0 -2px white;
+}
+
+h3{
+    color:#75a3a3;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
     text-shadow: -2px 0 white, 0 1px white, 1px 0 white, 0 -2px white;
 }
 #story{
