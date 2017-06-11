@@ -88,23 +88,23 @@ $(document).ready(function(){
     })
      //plot
      $("#relative").click(function(){
-        $("#story").append("<li>Their unknown relative died and left them millions</li>");
+        $("#story").append("<li>their unknown relative died and left them millions</li>");
         $("#plot").text("Relative");
     })
      $("#serial").click(function(){
-        $("#story").append("<li>There is a mysterious serial killer on the loose</li>");
+        $("#story").append("<li>there is a mysterious serial killer on the loose</li>");
         $("#plot").text("Serial Killer");
     })
      $("#manipulated").click(function(){
-        $("#story").append("<li>They are being manipulated by a rich child</li>");
+        $("#story").append("<li>they are being manipulated by a rich child</li>");
         $("#plot").text("Rich Kid");
     })
      $("#engaged").click(function(){
-        $("#story").append("<li>They are about to engaged to a stranger</li>");
+        $("#story").append("<li>they are about to engaged to a stranger</li>");
         $("#plot").text("Engaged");
     })
      $("#lottery").click(function(){
-        $("#story").append("<li>They won the lottery but lost the ticket</li>");
+        $("#story").append("<li>they won the lottery but lost the ticket</li>");
         $("#plot").text("Lottery");
     })
 
