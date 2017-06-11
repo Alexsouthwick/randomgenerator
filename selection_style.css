@@ -7,6 +7,8 @@
     border: none;
     cursor: pointer;
     border-radius: 15px;
+     background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #85d0ff);
 }
 
 body{
@@ -49,7 +51,7 @@ h1 {
     padding-top: 5%;
     text-shadow: -2px 0 white, 0 1px white, 1px 0 white, 0 -2px white;
 }
-#stoty{
+#story{
     text-align: center; 
     margin-top: 75px
 }
@@ -106,4 +108,18 @@ h1 {
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+}
+
+#finished{
+    text-align: center;
+    background-color: #3366ff;
+    width:40%;
+    border-radius: 15px;
+    border:1px solid black;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+p{
+    font-family: Georgia;
 }
