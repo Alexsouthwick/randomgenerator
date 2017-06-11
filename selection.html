@@ -19,7 +19,7 @@
  </h1>
 
 <div class="dropdown">
-  <button class="dropbtn">Genre</button>
+  <button class="dropbtn" id="genre">Genre</button>
   <div class="dropdown-content">
     <a id= "romance" href="#">Romance</a>
     <a id="horror" href="#">Horror</a>
@@ -30,19 +30,19 @@
 </div>
 
 <div class="dropdown">
-  <button class="dropbtn">Setting</button>
+  <button class="dropbtn" id="setting">Setting</button>
   <div class="dropdown-content">
-    <a id= "haunted castle" href="#">Haunted Castle</a>
-    <a id="antique shop" href="#">Antique Shop</a>
-    <a id="retirement home" href="#">Retirement Home</a>
-    <a id="desert oasis" href="#">Desert Oasis</a>
-    <a id="pirate ship" href="#">Pirate Ship</a>
+    <a id= "castle" href="#">Haunted Castle</a>
+    <a id="shop" href="#">Antique Shop</a>
+    <a id="home" href="#">Retirement Home</a>
+    <a id="oasis" href="#">Desert Oasis</a>
+    <a id="ship" href="#">Pirate Ship</a>
 
   </div>
 </div>
 
 <div class="dropdown">
-  <button class="dropbtn">Character</button>
+  <button class="dropbtn" id="character">Character</button>
   <div class="dropdown-content">
     <a id= "driver" href="#">Taxi Driver</a>
     <a id="guard" href="#">Prison Guard</a>
@@ -53,7 +53,7 @@
 </div>
 
 <div class="dropdown">
-  <button class="dropbtn">Sidekick</button>
+  <button class="dropbtn" id="sidekick">Sidekick</button>
   <div class="dropdown-content">
     <a id= "lover" href="#">Clingy Love Interest</a>
     <a id="dog" href="#">Talking Dog</a>
@@ -63,7 +63,7 @@
 </div>
 
 <div class="dropdown">
-  <button class="dropbtn">Plot</button>
+  <button class="dropbtn" id="plot">Plot</button>
   <div class="dropdown-content">
     <a id= "relative" href="#">Their unknown relative died and left them millions</a>
     <a id="serial" href="#">There is a mysterious serial killer on the loose</a>
@@ -74,13 +74,15 @@
 </div>
 </div>
 
-<ol id= story>
-<button id="finish"> Finish</button></div>
+<ol id= "story"> </ol>
+<button id="finish"> Finish</button>
+<div id="finished">
+    <p id="genre1"> Your story will be a </p>
+    <p id="setting1"> It will take place in a </p>
+    <p id="character1"> It will include a </p>
+    <p id="sidekick1"> For a sidekick, you will have a </p>
+    <p id="plot1"> Your basic plot line will be: </p>
 
-    <p id="genre"> You should write a </p>
-    <p id="setting"> It will take place in a(n) </p>
-    <p id="character"> The protagonist is </p>
-    <p id="sidekick"> And their partner in crime is a(n) </p>
-    <p id="plot"> The main character discovers that </p>
+</div>
 
 </body>
