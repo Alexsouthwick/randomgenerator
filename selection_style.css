@@ -7,9 +7,7 @@
     border: none;
     cursor: pointer;
     border-radius: 15px;
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #85d0ff);
-}
+  }
 
 body{
     background-image: url("http://i68.tinypic.com/jzur2a.jpg");
@@ -25,6 +23,10 @@ body{
     margin-right: 5%;
     margin-left: 5%; 
     margin-top: 75px
+}
+
+.margin {
+  margin-left: 9%;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -124,12 +126,19 @@ h3{
 
 #finished{
     text-align: center;
-    background-color: #3366ff;
+    background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
     width:40%;
     border-radius: 15px;
-    border:1px solid black;
+    border:1px;
     margin-left: 30%;
     margin-top: 3%;
+    padding: 12px 16px;
 }
 
 p{
