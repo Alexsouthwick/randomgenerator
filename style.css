@@ -1,5 +1,5 @@
 h1{
-    color:#adad85;
+    color:#75a3a3;
     text-align: center;
     font-family: Georgia;
     font-size: 50px;
@@ -7,10 +7,34 @@ h1{
     font-variant: normal;
     font-weight: 500;
     line-height: 26.4px;
+    padding-top: 5%;
+    text-shadow: -2px 0 white, 0 1px white, 1px 0 white, 0 -2px white;
 }
 
 body{
     background-image: url("http://i68.tinypic.com/jzur2a.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+button{
+    vertical-align: center;
+    margin-left: 45%;
+    margin-top: 15%;
+    border-radius: 20%;
+    font-size: 20px;
+    background-color: #cce6ff;
+    border: 2px solid #b3daff;
+    width:200px;
+    height:100px;
+
+}
+
+.button:hover{
+    background-color: #006080
+}
+
+.button a{
+    text-decoration: none;
+    color: #75a3a3;
 }
