@@ -7,6 +7,8 @@
     border: none;
     cursor: pointer;
     border-radius: 15px;
+     background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #85d0ff);
 }
 
 body{
